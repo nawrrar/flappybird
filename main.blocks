@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="0h$H+nl1+}gA+bFogion">Player</variable><variable type="KIND_SpriteKind" id="$0n4nvW)25#.Vce);#d`">Projectile</variable><variable type="KIND_SpriteKind" id="H.wjl=XR~4`R`ZjPv~3[">Food</variable><variable type="KIND_SpriteKind" id="|mwp))zU!3%eMI_;i#I3">Enemy</variable><variable id="Jwd;gZSE,Sb9~k1+Z%}F">mySprite</variable></variables><block type="pxt-on-start" id="f!6ii*[Fm7`OZfPaF:CA" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="AdkW(q3caPjDO]_X):zS"><value name="color"><shadow type="colorindexpicker" id="m_(T0S%*/cdx[{}`5=Q6"><field name="index">3</field></shadow></value><next><block type="variables_set" id="S]gXL;KU,tH@oWM$%UN-"><field name="VAR" id="Jwd;gZSE,Sb9~k1+Z%}F">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="bR~k^?wL,?bf%rDXC.t}"><value name="img"><shadow type="screen_image_picker" id="A}QY-s*8D1vi:v[3T/;g"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 4 b 
+b d d c d 5 5 b 5 4 4 4 4 4 b . 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"A}QY-s*8D1vi:v[3T/;g"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="F@mrJ*J3|l[GyP{c0RiC"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="set_current_tilemap" id="g{Y,93:{i5ZiPEHW{6j8"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="AzU,kLwIP!0,sHnKu4:1"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
